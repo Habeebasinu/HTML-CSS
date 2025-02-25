@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+        background-color: white;
+    }
+    .main{
+        background-color: black;
+        width: auto;
+        height:auto;
+        margin: 10px;
+    }
+    .sub1{
+        height: 320px;
+        width: 250px;
+        border-radius: 0px 0px 80px 80px;
+        padding: 0px 0px 20px 20px;
+      
+    }
+    .sub2{
+        height: 320px;
+        width: 250px;
+        border-radius: 0px 0px 80px 80px;
+        padding: 0px 0px 20px 20px;    
+    }
+.sub{
+    display:flex;
+    flex-direction: row;
+   }
+.div1{
+  padding:0px 0px 10px 260px;
+ 
+  
+}
+.h1{
+        color: aliceblue;
+        margin: 130px 0px 0px 60px;
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .h2,.h3{
+        color: aliceblue;
+        margin: 10px 0px 0px 60px;
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+p{
+    color: azure;
+    margin: 15px 0px 0px 60px;
+}
+.img1{
+    width: 570px;
+    height: 220px;
+    border-radius: 20px;
+    margin: 30px 0px 0px 60px;
+    
+}
+.div2{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    width: 80px;
+    margin:30px 0px 0px 70px;
+    height: 30px;
+    border-radius: 8px;
+}
+.div4{
+    width: 60px;
+    height: 6px;
+    border-radius: 4px;
+    background-color: aliceblue;
+    margin: 30px 0px 0px 140px;
+}
+.p1{
+    margin: 15px 0px 0px 140px;
+    font-size: 18px;
+    font-weight: bold;
+   
+}
+.p2{
+    margin: 15px 0px 0px 140px;
+
+}
+.div7{
+    display: flex;
+    flex-direction: row;
+}
+.img4{
+    width: 420px;
+    height: 250px;
+    padding: 0px;
+    margin: 30px 10px 50px 50px;
+    border-radius: 15px;
+}
+.sub1:hover, .sub2:hover{
+    transform: scale(1.05);
+    box-shadow: 0 3px 6px rgba(180, 179, 179, 0.3);
+    
+    }
+.img1:hover{
+        transform: scale(1.02);
+        box-shadow: 0 4px 8px rgba(180, 176, 176, 0.3);
+
+    }
+.img4:hover{
+        transform: scale(1.05);
+        box-shadow: 0 6px 12px rgba(255, 255, 255, 0.3);
+    }
+ button:hover{
+           
+        transform: scale(1.1);
+        box-shadow: 0 2px 2px rgba(187, 187, 186, 0.8);
+    }
+
+@media screen and (max-width:1400px){
+
+    .sub {
+        flex-direction: column;
+        align-items: center;
+            }
+    .div2, .div1 {
+        max-width: 100%;
+        text-align: center;
+        padding: 20px;
+        }
+    h1, p {
+         margin-left: 1px;
+            }
+   .img1, .img4 {
+         width: 100%;
+        max-width: 400px;
+        margin-left: 0;
+            }
+    .div7 {
+        flex-direction: column;
+        align-items: center;
+            }
+} 
+
+    </style>
+
+</head>
+<body>
+   <div class="main">
+    
+    <div class="sub">
+        <div class="div2">
+        <h1 class="h1">Dicover</h1>
+        <h1 class="h2">the power</h1>
+        <h1 class="h3">of design</h1>
+        <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Beatae <br> rerum quidem a animi corrupti, quae error harum saepe ea
+             laborum <br> nulla porro vel eligendi, voluptatibus veritatis impedit
+              autem ut quo.</p>
+    
+    <button>Explore</button>
+    <img src="af35d94640d2246ec77ae746825df45e.jpg" class="img1" >
+    </div>
+       
+        <div class="div1">
+        <img src="images (5).jpeg" class="sub1">
+        <img src="download (9).jpeg" class="sub2">
+        <div class="div4"></div>
+        <p class="p1">01</p>
+        <p class="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+             Nobis, distinctio autem ut unde illo at vel inventore mollitia <br>
+              </p>
+             <p class="p1">02</p>
+        <p class="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+             Nobis, distinctio autem ut unde illo at vel inventore mollitia<br>
+              </p>
+             <p class="p1">03</p>
+        <p class="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+             Nobis, distinctio autem ut unde illo at vel inventore mollitia <br>
+             </p>
+    </div>
+       
+     </div>
+    <div class="div7">
+        <img src="download (9).jpeg" class="img4">
+        <img src="images (6).jpeg" class="img4">
+        <img src="download (11).jpeg" class="img4">
+        
+    </div>
+   
+
+   </div> 
+</body>
+</html>
