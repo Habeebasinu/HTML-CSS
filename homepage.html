@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <style>
+        
+        .sub{
+            display: flex;
+            flex-direction: row;
+            width: auto;
+            height:550px;
+            background-color: rgb(252, 248, 237);
+            justify-content:space-between;
+            padding: 0 20%;
+            position: relative;
+            
+        }
+        .sub1{
+            padding: 60px 0px 0px 0px;
+            text-align: left;
+        }
+        .sub1 h1{
+            margin: 3px 0px 0px 0px;
+            font-size: 55px;
+            font-family:serif;
+            font-weight: 700;
+        }
+    
+        .sub1 p{
+            font-family:serif;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 1.2;
+        }
+        .sub1 button{
+            border: 1px solid white;
+            border-radius: 15px;
+            background-color: #94511d;
+            width: 100PX;
+            height: 30PX;
+            padding: 2PX;
+         }
+         .sub2{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            padding-top: 40px;
+            margin-left:auto;
+            }
+         .sub2 .img1{
+            width:300px;
+            height: 280px;
+            position: relative;
+            border-radius:100%;
+             }
+       .sub2 .img2{
+        position: absolute;
+        width: 250px;
+        height: 200px;
+        border-radius:100%;
+        left: 150px;
+        top: 250px;
+        z-index: 1;
+       }
+       .div3{
+        width: auto;
+        height: 400px;
+        background-color: rgb(41, 34, 16);
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        gap: 10px;
+        
+     }
+     .div3 img{
+         margin-top: 100px ;
+         border-radius: 20px;
+         margin-right: 14px;
+         margin-left: 25px;
+       }
+       .div3_1,.div3_2,.div3_3,.div3_4 ,.div3_5 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+       }
+       .div3_1 p,.div3_2 p,.div3_3 p,.div3_4 p,.div3_5 p{
+        color: rgb(239, 227, 186);
+       }
+       
+       .sub4{
+        width: 700px;
+        height: 100px;
+        border-radius:50px;
+        background-color: rgb(244, 215, 165);
+        position: absolute;
+        top: 490px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 4;
+        display: flex;
+        flex-direction: row;
+        padding: 20px 0px 0px 0px;
+        justify-content: space-between;
+       }
+
+   .sub4_1, .sub4_2, .sub4_3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+   }
+  .sub4_1 {
+    margin-left: 5px;
+    }
+
+ .sub4_3 {
+    margin-right: 20px;
+  }
+     .sub4_1 i, .sub4_2 i, .sub4_3 i{
+        margin-bottom: 5px;
+     }
+       .sub4_1 h2,.sub4_2 h2,.sub4_3 h2{
+        margin:0 5px;
+        font-size: 25px;
+       font-weight:900;
+      }
+      .sub4_1 p,.sub4_2 p,.sub4_3 p{
+        margin: 0; 
+      }
+       .img1:hover,.img2:hover{
+        transform: scale(1.1);
+       }
+       .sub1 button:hover{
+        transform: scale(1.1);
+       }
+       .img4:hover{
+        transform: scale(1.1);
+       }
+       .sub4:hover{
+        transform: translate(-50%, -4px);
+       }
+       @media screen and (max-width: 1300px) {
+    .sub {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        text-align: center;
+        padding: 20px;
+    }
+    .sub4 {
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        padding: 25px;
+        top: auto;
+        gap: 20px;
+        position: relative;
+    }
+    .div3{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        padding:25px;
+        gap: 20px;
+    }
+ }
+ </style>
+</head>
+<body>
+    <div class="main">
+        <div class="sub">
+            <div class="sub1">
+                <h1 class="title1">Your Coffee</h1>
+                <h1 class="title2">Your Vibe</h1>
+                <h1 class="title3">Your Energy</h1>
+                <p>Lorem ipsum dolor sit amet<br>
+                     consectetur adipisicing elit.Temporibus<br>
+                      optio.Placeat repellendus rem inventore aut <br>
+                     distinctio vero facere at reprehenderit </p>
+
+               <button>Explore</button>
+            </div>
+            <div class="sub2">
+                <img src="pic4jpg.jpg" alt="img1" class="img1"/>
+                <img src="pic2.jpg" alt="img1" class="img2"/>
+
+            </div>
+
+        </div>
+        <div class="sub4">
+            <div class="sub4_1">
+                <i class="bi bi-cup-hot"></i>
+                <h2>190+</h2>
+                <p>Lorem ipsum dolor <br>
+                    sit amet consectetur </p>
+            </div>
+            <div class="sub4_2">
+                <i class="bi bi-cup-hot"></i>
+                <h2>123K</h2>
+                <p>Lorem ipsum dolor <br>
+                    sit amet consectetur </p>
+
+            </div>
+            <div class="sub4_3">
+                <i class="bi bi-cup-hot"></i>
+                <h2>58</h2>
+                <p>Lorem ipsum dolor <br>
+                    sit amet consectetur </p>
+
+            </div>
+        </div>
+
+        <div class="div3">
+            <div class="div3_1"> 
+                <img src="605aea2c3ef89d08958ec684e60b0ab5.jpg" width="250px" height="250px"  alt="img1" class="img4"/>
+                <p>Lorem ipsum dolor</p>
+            </div>
+            <div class="div3_2">
+                 <img src="bc0cffc8b21c24b4b571e98b9ab5da12.jpg" width="250px" height="250px"  alt="img1" class="img4"/>
+                <p>Lorem ipsum dolor</p>
+            </div>
+            <div class="div3_2">
+                 <img src="767f2124a2edb7c6faa4f69b53057aec.jpg" width="250px"  height="250px" alt="img1" class="img4"/>
+                <p>Lorem ipsum dolor</p>
+            </div>
+            <div class="div3_2"> 
+                <img src="34909a634c82d2211e20ead63e224f54.jpg"  width="250px"  height="250px" alt="img1" class="img4"/>
+                <p>Lorem ipsum dolor</p>
+            </div>
+            <div class="div3_2"> 
+                <img src="f366b184269282c6fd3f7efea0edbc3d.jpg" width="250px"  height="250px" alt="img1" class="img4"/>
+                <p>Lorem ipsum dolor</p>
+            </div>
+    </div>
+
+    </div>
+    
+</body>
+</html>
