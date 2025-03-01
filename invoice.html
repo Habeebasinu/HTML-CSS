@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            box-sizing: border-box;
+        }
+        .main{
+            align-items: center;
+            justify-content: center;
+            width: 75%;
+            height: auto;
+             margin: auto; 
+        }
+        .sub{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .head1{
+            text-align: center;
+            font-weight: bold;
+            font-size: 20px;
+           }
+        .sub1{
+            padding-top:70px;
+            display: flex;
+            flex-direction:column;
+
+        }
+        .sub1 p{
+            margin: 2px;
+        }
+        
+       .sub2{
+        position: relative;
+       }
+        img{
+            width: 150px;
+            height: 160px;
+            margin-right: 25px;
+            margin-bottom: 20px;
+        }
+        .sub2 p{
+            font-weight: bold;
+            position: absolute;
+            bottom:185px;
+            left: 39px;
+        }
+        .sub4{
+            display: flex;
+            flex-direction: row;
+    
+        }
+        .sub6,.sub7{
+            height: 110px;
+            width: 500px;
+            border: 1px solid black;
+        }
+        .sub6 p,.sub7 p,.sub8 p{
+            margin:2px;
+        }
+        .sub8{
+            height: 170px;
+            width: 500px;
+            border: 1px solid black;
+        }
+        .right-sub9{
+            display: flex;
+            flex-direction: row;
+        }
+        .div1{
+            width: 300px;
+            height: 43px;
+            border: 1px solid black;
+       }
+       .div2{
+        height: 126px;
+        width: 602px;
+        border: 1px solid black;
+      }
+      .div1 p,.div2 p{
+        margin: 2px;
+      }
+      table{
+        width: 1105px;
+        border: 1px solid black;
+      }
+      .s1{
+        float: right;
+      }
+      table,th,td{
+        border: 1px solid black;
+        border-collapse: collapse;
+
+      }
+      .tab1{
+        width: 1105px;
+        border: 1px solid black;
+       
+      }
+      .tab1,th,td{
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      .sub14{
+        width: 1104px;
+        border: 1px solid black;
+        height: 110px;
+        position: relative;
+        
+      }
+      .sub14 p{
+        margin: 2px;
+      }
+      .sub15{
+        position: absolute;
+        width: 550px;
+        height: 69px;
+        border: 1px solid black;
+        top: 40px;
+        left: 553px;
+       
+        }
+      .sub15 .p1{
+        float: right;
+       }
+       .sub15 .p2{
+        margin: 28px 0px 0px 191px;
+        float: right;
+       }
+       .t1{
+        margin-top:20px ;
+       }
+       .p5{
+        text-align: center;
+        margin-top: 3px;
+        margin-bottom: 20px;
+       }
+       .p6{
+      margin-top: 50px;
+      text-align: right;
+      font-weight: bold;
+       }
+       .p7{
+        margin-bottom: 0px;
+       }
+       .p8{
+        
+       text-align: right;
+       }
+     @media screen and (max-width:850px){
+        .main{
+            width:90%;
+            align-items: center;
+        }
+        .sub{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: auto;
+            height: auto;
+        }
+        .sub2img{
+            width: 100px;
+        } 
+        .sub4{
+            display: flex;
+            flex-direction: column;
+            height: auto;
+            align-items: center;
+        }
+        .sub6,.sub7,.sub8{
+            width: 100%;
+        }
+        table{
+            width: 100%;
+        }
+        .tab1{
+            width: 100%;
+        }
+        .sub14{
+            width: 100%;
+        }
+        .sub15{
+            width: 100%;
+            left: 1px;
+            text-align: center;
+        }
+     }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <p class="head1">Tax Invoice</p>
+        <div class="sub">
+        <div class="sub1">
+            <p >IRT<strong style="margin-left: 42px;">:fef1df90406b928db26a62f816debc9bb5256d9375e6-</strong> </p>
+                <p><strong style="margin-left: 68px;">0dc4226653cc23a8c595</strong></p>
+                <p>Ack No<strong style="margin-left: 20px;">:112010036563310</strong> </p>
+                <P>Ack Date<strong style="margin-left: 5px;"> :21-Dec-20</strong></P>
+
+           </div>
+        <div class="sub2">
+            <p>e-Invoice</p>
+            <img src="QR.png"  alt="qr-code"/>
+
+        </div>
+    </div>
+    <!-- .............................................................................................................................-->
+    <div class="sub4">
+        <div class="left-sub5">
+        <div class="sub6">
+            <p><strong> Surabhi Hardwares,Bangalore</strong> </p>
+            <p>HSR Layout</p>
+            <p>Bangalore</p>
+            <p>GSTIN/UIN:29AACCT3705E000</p>
+            <P>State Name: Karnataka, Code:29</P>
+        </div>
+        <div class="sub7">
+            <p>Consignee (ship to)</p>
+            <p><strong>Kiran Enterprises</strong></p>
+            <p>12th cross</p>
+            <p>GSTIN/UIN &emsp;:29AAFFC8126N1ZZ</p>
+            <p>State Name &emsp;   :Karnataka, Code : 29</p>
+        </div>
+        <div class="sub8">
+            <p>Buyer (Bill to)</p>
+            <p><strong>Kiran Enterprises</strong></p>
+            <p>12th cross</p>
+            <p>GSTIN/UIN &emsp;:29AAFFC8126N1ZZ</p>
+            <p>State Name &emsp;   :Karnataka, Code : 29</p>
+            <p></p>
+        </div>
+    </div>
+    <div>
+    <div class="right-sub9">
+        <div class="sub10-left">
+            <div class="div1">
+                <p>Invoice No.</p>
+                <p><strong>SHB/456/20</strong></p>
+            </div>
+            <div class="div1">
+                <p>Delivery Note</p>
+            </div>
+            <div class="div1">
+                <p>Reference No. & Date</p>
+            </div>
+            <div class="div1">
+                <p>Buyer's Order No</p>
+            </div>
+            <div class="div1">
+                <p>Dispatch Doc No</p>
+            </div>
+            <div class="div1">
+                <p>Dispatched through</p>
+            </div>
+           
+
+
+        </div>
+
+        <div class="sub11-right">
+            <div class="div1">
+                <p>Dated</p>
+                <p><strong>20-Dec-20</strong></p>
+            </div>
+            <div class="div1">
+                <p>Mode/Terms of Payment</p>
+            </div>
+            <div class="div1">
+                <p>Other References</p>
+            </div>
+            <div class="div1">
+                <p>Dated</p>
+            </div>
+            <div class="div1">
+                <p>Delivery Note Date</p>
+            </div>
+            <div class="div1">
+                <p>Destination</p>
+            </div>
+            
+        </div>
+
+        </div>
+
+        <div class="div2">
+            <p>Terms of Delivery</p>
+        </div>
+    </div>
+    </div>
+    <!-- ........................................................................................................................................ -->
+     <div class="sub12">
+        <table>
+            <tr >
+            <th style="width: 1px;">SI<br>No.</th>
+            <th style="width: 402px;">Description of Goods</th>
+            <th>HSN/SAC</th>
+            <th>Quantity</th>
+            <th>Rate</th>
+            <th>Per</th>
+            <th>Disc. %</th>
+            <th>Amount</th>
+            </tr>
+            <tr style="height: 250px;">
+               <td style="padding-bottom:280px;" >
+                 <p>1</p></td>
+               <td style="padding-bottom:190px;"> 
+                <p class="p7"><strong>12MM**</strong></p>
+            <p class="p6">
+            CGST<br>
+            SGST
+        </p>
+        </td>
+        <td style="padding-bottom: 260px;"><p>1005</p></td>
+        <td style="padding-bottom: 260px;"><p class="p8"><strong>7 No</strong></p></td>
+        <td style="padding-bottom: 260px;"><p class="p8">500.00</p></td>
+        <td style="padding-bottom: 260px;"><p class="p8">No</p></td>
+        <td>
+            
+    </td>
+         <td style="text-align: right; padding-bottom: 160px;">
+            <p  style="margin-top: 10px;"><strong>35,500.00</strong></p><br>
+            <p  style="margin: 0;"><strong >315.00</strong></p><br>
+            <p style="margin: 0;"><strong>315.00</strong></p><br>
+
+       </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td style="text-align:right;">Total</td>
+                <td></td>
+                <td><strong style="float: right;">7 No</strong></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><strong style="float: right;">₹4,130.00</strong></td>
+
+            </tr>
+            <tr>
+                <td colspan="8">
+                <p>Amount Chargeable(in Words)<strong class="s1">E. & O.E</strong> </p>
+                <strong>Indian Rupee Four Thosand One Hundred Thirty Only</strong>
+            </td>
+            </tr>
+        </table>
+
+     </div>
+     <!-- ................................................................................................................................................ -->
+      <div class="sub13">
+        <table class="tab1">
+            <tr>
+                <th rowspan="2" style="width: 400px;">HSN/SAC</th>
+                <th  rowspan="2">Taxable<br>Value
+                </th>
+                <th colspan="2">Centrel Tax</th>
+                <th colspan="2">State Tax</th>
+                <th rowspan="2">Total <br>Tax Amount</th>
+            </tr>
+            <tr>
+                <td>Rate</td>
+                <td>Amount</td>
+                <td>Rate</td>
+                <td>Amount</td>
+            </tr>
+            <tr>
+                <td >1005</td>
+                <td style="text-align: right;">3,500.00</td>
+                <td style="text-align: right;">9%</td>
+                <td style="text-align: right;">315.00</td>
+                <td style="text-align: right;">9%</td>
+                <td style="text-align: right;">315.00</td>
+                <td style="text-align: right;">630.00</td>
+
+
+            </tr>
+            <tr>
+                <td><strong style="float: right;">Total</strong></td>
+                <td><strong style="float: right;">35,500.00</strong></td>
+                <td></td>
+                <td><strong style="float: right;">315.00</strong></td>
+                <td></td>
+                <td><strong style="float: right;">315.00</strong></td>
+                <td><strong style="float: right;">630.00</strong></td>
+
+            </tr>
+        </table>
+        <div class="sub14">
+            <p>Tax Amount (in words) :<strong>Indian Rupee Six Hundred Thirty Only</strong></p>
+            <p><u>Declaration</u></p>
+            <p>We declare that this invoice shows the actual price of the<br>
+            goods described and that all particulars are true and <br>
+        correct.</p>
+            <div class="sub15">
+                <p class="p1"><strong>Surabhi Hardwares,Bangalore</strong></p>
+                <p class="p2">Authorizeed Signotory</p>
+            </div>
+    
+        </div>
+    
+      </div>
+      <!--................................................................................................................... -->
+      
+    <p class="p5">This is a Computer Generated Invoice</p>
+
+<!-- ............................................................................. -->
+</div>
+</body>
+</html>
